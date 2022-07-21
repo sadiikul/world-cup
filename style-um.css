@@ -47,7 +47,7 @@ section{
     display: flex;
 }
 .left-div{
-    background-color: black;
+    background-color: #090a27;
     width: 312px;
     height: 312px;
     display: flex;
@@ -190,6 +190,14 @@ button {
     }
     .blogs-banner{
         overflow: hidden;
+    }
+    footer{
+        height: 800px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        
     }
 
 }

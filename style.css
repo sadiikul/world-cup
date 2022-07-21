@@ -48,7 +48,7 @@ section{
     display: flex;
 }
 .left-div{
-    background-color: black;
+    background-color: #090a27;
     width: 312px;
     height: 312px;
     display: flex;
@@ -81,6 +81,18 @@ section{
     grid-gap: 10px;
     margin-left: 25px;
     margin-right: 10px;
+}
+.transfer-btn{
+        display: inline-block;
+        background: gray;
+        color: #FFF;
+        border: 0;
+        border-radius: 4px;
+        text-align: center;
+        padding: 5px 10px;
+        margin-left: 10px;
+        text-decoration: none;
+    
 }
 .blog{
     border: 1px solid black;
@@ -194,6 +206,14 @@ button {
         width: 310px;
         margin-left: 130px;
         margin-left: 290px;
+    }
+    footer{
+        height: 800px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        
     }
     
 
